@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#">
+            <h2>Registration</h2> <br>
+            <div class="information">
+                <div class="form-group">
+                    <label for="Full name" >Full Name:</label>
+                    <input type="text" placeholder="Enter your name " id="Full name">
+                    <br>
+                    <label for="Username">Username:</label>
+                    <input type="text" placeholder="Enter your username" id="Username">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder="Enter your email" id="Email">
+                    <br>
+                    <label for="Phone Number">Phone Number:</label>
+                    <input type="number" placeholder="Enter your phone number" id="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password:</label>
+                    <input type="password" placeholder="Enter your password" id="Password">
+                    <br>
+                    <label for="Confirm Password">Confirm Password:</label>
+                    <input type="password" placeholder="Enter your password" id="Confirm Password">
+                </div>
+            </div>
+            <div class="Gender">
+                <label for="Gender">Gender</label>
+                <br>
+                <input type="radio" name="Gender" id="Male">Male
+                <input type="radio" name="Gender" id="Female">Female
+                <input type="radio" name="Gender" id="Other">Other
+                <br>
+            </div>
+            <div class="btn">
+                <button type="cancel" id="cancel">Cancel</button>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
